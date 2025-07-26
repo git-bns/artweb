@@ -1,24 +1,17 @@
 // Image Verification Utility for Prativa On Canvas
 // This script helps verify which images exist in the GitHub repository
 
-const expectedImages = [
-    'ganesha.jpg',
-    'rajasthani_dance.jpg', 
-    'lotus_meditation.jpg',
-    'modern_mandala.jpg',
-    'kerala_backwaters.jpg',
-    'abstract_raga.jpg',
-    'madhubani_dreams.jpg',
-    'mumbai_monsoon.jpg',
-    'himalayan_sunrise.jpg',
-    'cosmic_dance.jpg',
-    'village_life.jpg',
-    'peacock_garden.jpg',
-    'featured_artwork.jpg',
-    'artist_photo.jpg'
-];
+const expectedImages = [];
 
-const baseUrl = 'https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/';
+// Generate art-1.jpg to art-40.jpg
+for (let i = 1; i <= 40; i++) {
+    expectedImages.push(`art-${i}.jpg`);
+}
+
+// Add additional images
+expectedImages.push('featured-artwork.jpg', 'artist-photo.jpg');
+
+const baseUrl = 'https://prativaoncanvas.github.io/en/arts/';
 
 /**
  * Verify image availability
@@ -81,22 +74,24 @@ function generateImageUrls() {
 /**
  * Alternative images mapping for fallback
  */
-const alternativeImages = {
-    'ganesha.jpg': 'https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400',
-    'rajasthani_dance.jpg': 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
-    'lotus_meditation.jpg': 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400',
-    'modern_mandala.jpg': 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400',
-    'kerala_backwaters.jpg': 'https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400',
-    'abstract_raga.jpg': 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
-    'madhubani_dreams.jpg': 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400',
-    'mumbai_monsoon.jpg': 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400',
-    'himalayan_sunrise.jpg': 'https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400',
-    'cosmic_dance.jpg': 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
-    'village_life.jpg': 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400',
-    'peacock_garden.jpg': 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400',
-    'featured_artwork.jpg': 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600',
-    'artist_photo.jpg': 'https://images.unsplash.com/photo-1494790108755-2616b612b1ab?w=400'
-};
+const alternativeImages = {};
+
+// Generate fallback URLs for art-1.jpg to art-40.jpg
+const fallbackImages = [
+    'https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400',
+    'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
+    'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400',
+    'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400'
+];
+
+for (let i = 1; i <= 40; i++) {
+    const fallbackIndex = (i - 1) % fallbackImages.length;
+    alternativeImages[`art-${i}.jpg`] = fallbackImages[fallbackIndex];
+}
+
+// Add specific fallbacks for special images
+alternativeImages['featured-artwork.jpg'] = 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600';
+alternativeImages['artist-photo.jpg'] = 'https://images.unsplash.com/photo-1494790108755-2616b612b1ab?w=400';
 
 // Export for use in browser console
 if (typeof window !== 'undefined') {
