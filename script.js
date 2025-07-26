@@ -1,10 +1,10 @@
-// Sample Indian artwork data
+// Prativa On Canvas artwork data with GitHub repository images
 const artworks = [
     {
         id: 1,
         title: "Divine Ganesha",
         category: "spiritual",
-        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/ganesha.jpg",
         price: "₹15,000",
         dimensions: "18\" x 24\"",
         medium: "Acrylic on Canvas",
@@ -15,7 +15,7 @@ const artworks = [
         id: 2,
         title: "Rajasthani Folk Dance",
         category: "traditional",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/rajasthani_dance.jpg",
         price: "₹22,000",
         dimensions: "24\" x 36\"",
         medium: "Oil on Canvas",
@@ -26,7 +26,7 @@ const artworks = [
         id: 3,
         title: "Lotus Meditation",
         category: "spiritual",
-        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/lotus_meditation.jpg",
         price: "₹18,500",
         dimensions: "20\" x 30\"",
         medium: "Watercolor on Paper",
@@ -37,7 +37,7 @@ const artworks = [
         id: 4,
         title: "Modern Mandala",
         category: "contemporary",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/modern_mandala.jpg",
         price: "₹12,000",
         dimensions: "16\" x 16\"",
         medium: "Mixed Media on Canvas",
@@ -48,7 +48,7 @@ const artworks = [
         id: 5,
         title: "Kerala Backwaters",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/kerala_backwaters.jpg",
         price: "₹25,000",
         dimensions: "30\" x 40\"",
         medium: "Oil on Canvas",
@@ -59,7 +59,7 @@ const artworks = [
         id: 6,
         title: "Abstract Raga",
         category: "abstract",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/abstract_raga.jpg",
         price: "₹16,500",
         dimensions: "24\" x 32\"",
         medium: "Acrylic on Canvas",
@@ -70,7 +70,7 @@ const artworks = [
         id: 7,
         title: "Madhubani Dreams",
         category: "traditional",
-        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/madhubani_dreams.jpg",
         price: "₹20,000",
         dimensions: "22\" x 28\"",
         medium: "Natural Pigments on Handmade Paper",
@@ -81,7 +81,7 @@ const artworks = [
         id: 8,
         title: "Mumbai Monsoon",
         category: "contemporary",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/mumbai_monsoon.jpg",
         price: "₹28,000",
         dimensions: "36\" x 48\"",
         medium: "Oil on Canvas",
@@ -92,7 +92,7 @@ const artworks = [
         id: 9,
         title: "Himalayan Sunrise",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/himalayan_sunrise.jpg",
         price: "₹30,000",
         dimensions: "32\" x 48\"",
         medium: "Watercolor on Canvas",
@@ -103,7 +103,7 @@ const artworks = [
         id: 10,
         title: "Cosmic Dance",
         category: "spiritual",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/cosmic_dance.jpg",
         price: "₹35,000",
         dimensions: "36\" x 36\"",
         medium: "Acrylic on Canvas",
@@ -114,7 +114,7 @@ const artworks = [
         id: 11,
         title: "Village Life",
         category: "traditional",
-        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/village_life.jpg",
         price: "₹19,000",
         dimensions: "24\" x 30\"",
         medium: "Oil on Canvas",
@@ -125,7 +125,7 @@ const artworks = [
         id: 12,
         title: "Peacock Garden",
         category: "nature",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/peacock_garden.jpg",
         price: "₹24,000",
         dimensions: "28\" x 36\"",
         medium: "Acrylic on Canvas",
@@ -175,12 +175,12 @@ function createPlaceholderImages() {
     const artistImg = document.getElementById('artist-img');
     
     if (heroImg) {
-        heroImg.src = 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=800&fit=crop';
+        heroImg.src = 'https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/featured_artwork.jpg';
         heroImg.alt = 'Featured Indian Contemporary Artwork';
     }
     
     if (artistImg) {
-        artistImg.src = 'https://images.unsplash.com/photo-1494790108755-2616b612b1ab?w=400&h=400&fit=crop';
+        artistImg.src = 'https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/artist_photo.jpg';
         artistImg.alt = 'Prativa - Artist Portrait';
     }
 }
@@ -480,7 +480,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Add loading states for images
+// Add loading states for images with fallback for GitHub repository images
 function addImageLoadingStates() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
@@ -489,7 +489,14 @@ function addImageLoadingStates() {
         });
         
         img.addEventListener('error', () => {
-            img.src = 'https://via.placeholder.com/400x300/ecf0f1/95a5a6?text=Image+Not+Available';
+            // If GitHub image fails, fallback to high-quality art placeholder
+            if (img.src.includes('prativaoncanvas')) {
+                // Art-themed placeholder for failed artwork images
+                img.src = 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop';
+            } else {
+                // Generic placeholder for other images
+                img.src = 'https://via.placeholder.com/400x300/ecf0f1/95a5a6?text=Image+Loading...';
+            }
         });
     });
 }

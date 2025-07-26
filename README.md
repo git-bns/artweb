@@ -8,8 +8,9 @@ A modern, responsive artist portfolio website showcasing contemporary Indian art
 - Responsive grid layout displaying Indian artworks
 - Category-based filtering (All, Traditional, Contemporary, Spiritual, Nature, Abstract)
 - Smooth hover animations and visual effects
-- High-quality placeholder images from Unsplash
+- **Direct integration with GitHub repository images**
 - 12 sample artworks with Indian themes and pricing in INR
+- Fallback images for enhanced reliability
 
 ### 📱 **Responsive Design**
 - Mobile-first approach with breakpoints for tablets and desktop
@@ -75,6 +76,23 @@ A modern, responsive artist portfolio website showcasing contemporary Indian art
 2. **Open** `index.html` in a web browser
 3. **No build process required** - pure HTML/CSS/JavaScript
 
+## Image Verification (Development)
+
+To verify which images are available from the GitHub repository:
+
+1. **Uncomment the verification script** in `index.html`:
+   ```html
+   <script src="image-verification.js"></script>
+   ```
+
+2. **Open browser console** and run:
+   ```javascript
+   verifyImages() // Check image availability
+   generateImageUrls() // List all expected URLs
+   ```
+
+3. **Check results** and update repository as needed
+
 ## Google Forms Setup
 
 To enable order submissions, you need to set up a Google Form:
@@ -107,6 +125,34 @@ Example field ID extraction:
 <input name="entry.123456789" ... >
 ```
 Use `entry.123456789` as the field ID.
+
+## GitHub Repository Images
+
+The website is configured to load images directly from the Prativa On Canvas GitHub repository:
+
+**Image URLs Pattern:**
+```
+https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/[image_name].jpg
+```
+
+**Current Image Mappings:**
+- `ganesha.jpg` - Divine Ganesha artwork
+- `rajasthani_dance.jpg` - Rajasthani Folk Dance
+- `lotus_meditation.jpg` - Lotus Meditation
+- `modern_mandala.jpg` - Modern Mandala
+- `kerala_backwaters.jpg` - Kerala Backwaters
+- `abstract_raga.jpg` - Abstract Raga
+- `madhubani_dreams.jpg` - Madhubani Dreams
+- `mumbai_monsoon.jpg` - Mumbai Monsoon
+- `himalayan_sunrise.jpg` - Himalayan Sunrise
+- `cosmic_dance.jpg` - Cosmic Dance
+- `village_life.jpg` - Village Life
+- `peacock_garden.jpg` - Peacock Garden
+- `featured_artwork.jpg` - Hero section featured image
+- `artist_photo.jpg` - Artist profile photo
+
+**Fallback System:**
+If GitHub images fail to load, the website automatically falls back to high-quality art-themed placeholder images from Unsplash.
 
 ## Customization
 
