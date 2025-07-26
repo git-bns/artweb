@@ -8,8 +8,8 @@ A modern, responsive artist portfolio website showcasing contemporary Indian art
 - Responsive grid layout displaying Indian artworks
 - Category-based filtering (All, Traditional, Contemporary, Spiritual, Nature, Abstract)
 - Smooth hover animations and visual effects
-- **Direct integration with GitHub repository images**
-- 12 sample artworks with Indian themes and pricing in INR
+- **Direct integration with GitHub Pages images**
+- 40 artworks with Indian themes and pricing in INR
 - Fallback images for enhanced reliability
 
 ### 📱 **Responsive Design**
@@ -126,33 +126,27 @@ Example field ID extraction:
 ```
 Use `entry.123456789` as the field ID.
 
-## GitHub Repository Images
+## GitHub Pages Images
 
-The website is configured to load images directly from the Prativa On Canvas GitHub repository:
+The website is configured to load images directly from the Prativa On Canvas GitHub Pages site:
 
 **Image URLs Pattern:**
 ```
-https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/[image_name].jpg
+https://prativaoncanvas.github.io/en/arts/[image_name].jpg
 ```
 
 **Current Image Mappings:**
-- `ganesha.jpg` - Divine Ganesha artwork
-- `rajasthani_dance.jpg` - Rajasthani Folk Dance
-- `lotus_meditation.jpg` - Lotus Meditation
-- `modern_mandala.jpg` - Modern Mandala
-- `kerala_backwaters.jpg` - Kerala Backwaters
-- `abstract_raga.jpg` - Abstract Raga
-- `madhubani_dreams.jpg` - Madhubani Dreams
-- `mumbai_monsoon.jpg` - Mumbai Monsoon
-- `himalayan_sunrise.jpg` - Himalayan Sunrise
-- `cosmic_dance.jpg` - Cosmic Dance
-- `village_life.jpg` - Village Life
-- `peacock_garden.jpg` - Peacock Garden
-- `featured_artwork.jpg` - Hero section featured image
-- `artist_photo.jpg` - Artist profile photo
+- `art-1.jpg` to `art-40.jpg` - 40 artwork images (Divine Ganesha, Rajasthani Folk Dance, etc.)
+- `featured-artwork.jpg` - Hero section featured image
+- `artist-photo.jpg` - Artist profile photo
+
+**Complete Image List:**
+The website expects 42 total images:
+- **Artworks**: `art-1.jpg`, `art-2.jpg`, `art-3.jpg`, ... , `art-40.jpg`
+- **Special Images**: `featured-artwork.jpg`, `artist-photo.jpg`
 
 **Fallback System:**
-If GitHub images fail to load, the website automatically falls back to high-quality art-themed placeholder images from Unsplash.
+If GitHub Pages images fail to load, the website automatically falls back to high-quality art-themed placeholder images from Unsplash.
 
 ## Customization
 
@@ -219,29 +213,27 @@ Potential additions for further development:
 
 ## Sample Artworks Included
 
-The website comes with 12 sample Indian artworks across different categories:
+The website comes with 40 sample Indian artworks across different categories:
 
-### 🕉️ **Spiritual** (3 artworks)
-- Divine Ganesha - ₹15,000
-- Lotus Meditation - ₹18,500  
-- Cosmic Dance - ₹35,000
+### 🕉️ **Spiritual** (8 artworks)
+- Divine Ganesha, Temple Bells, Lotus Meditation, Cosmic Dance, Meditation Circle, Divine Light, Prayer Flags
+- Price range: ₹15,000 - ₹35,000
 
-### 🎨 **Traditional** (3 artworks)
-- Rajasthani Folk Dance - ₹22,000
-- Madhubani Dreams - ₹20,000
-- Village Life - ₹19,000
+### 🎨 **Traditional** (9 artworks) 
+- Rajasthani Folk Dance, Madhubani Dreams, Warli Art Modern, Puppet Show, Folk Musicians, Textile Patterns, Wedding Celebration, Heritage Street, Kathak Dancer
+- Price range: ₹16,000 - ₹28,500
 
-### 🏙️ **Contemporary** (2 artworks)
-- Modern Mandala - ₹12,000
-- Mumbai Monsoon - ₹28,000
+### 🏙️ **Contemporary** (8 artworks)
+- Modern Mandala, Urban Rhythms, Digital Dreams, Geometric Harmony, City Lights, Modern Temple, Future Vision, New Horizons
+- Price range: ₹12,000 - ₹34,000
 
-### 🌿 **Nature** (3 artworks)
-- Kerala Backwaters - ₹25,000
-- Himalayan Sunrise - ₹30,000
-- Peacock Garden - ₹24,000
+### 🌿 **Nature** (8 artworks)
+- Kerala Backwaters, Sacred Ganges, Desert Sunset, Monsoon Magic, Banyan Wisdom, Tiger's Grace, Ocean Waves, Peacock Garden
+- Price range: ₹22,000 - ₹35,000
 
-### 🎭 **Abstract** (1 artwork)
-- Abstract Raga - ₹16,500
+### 🎭 **Abstract** (7 artworks)
+- Abstract Raga, Color Explosion, Energy Flow, Abstract Emotion, Cosmic Mandala
+- Price range: ₹16,500 - ₹27,500
 
 ---
 
