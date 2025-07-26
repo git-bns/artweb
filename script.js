@@ -4,7 +4,7 @@ const artworks = [
         id: 1,
         title: "Divine Ganesha",
         category: "spiritual",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/ganesha.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-1.jpg",
         price: "₹15,000",
         dimensions: "18\" x 24\"",
         medium: "Acrylic on Canvas",
@@ -15,7 +15,7 @@ const artworks = [
         id: 2,
         title: "Rajasthani Folk Dance",
         category: "traditional",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/rajasthani_dance.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-2.jpg",
         price: "₹22,000",
         dimensions: "24\" x 36\"",
         medium: "Oil on Canvas",
@@ -26,7 +26,7 @@ const artworks = [
         id: 3,
         title: "Lotus Meditation",
         category: "spiritual",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/lotus_meditation.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-3.jpg",
         price: "₹18,500",
         dimensions: "20\" x 30\"",
         medium: "Watercolor on Paper",
@@ -37,7 +37,7 @@ const artworks = [
         id: 4,
         title: "Modern Mandala",
         category: "contemporary",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/modern_mandala.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-4.jpg",
         price: "₹12,000",
         dimensions: "16\" x 16\"",
         medium: "Mixed Media on Canvas",
@@ -48,7 +48,7 @@ const artworks = [
         id: 5,
         title: "Kerala Backwaters",
         category: "nature",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/kerala_backwaters.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-5.jpg",
         price: "₹25,000",
         dimensions: "30\" x 40\"",
         medium: "Oil on Canvas",
@@ -59,7 +59,7 @@ const artworks = [
         id: 6,
         title: "Abstract Raga",
         category: "abstract",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/abstract_raga.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-6.jpg",
         price: "₹16,500",
         dimensions: "24\" x 32\"",
         medium: "Acrylic on Canvas",
@@ -70,7 +70,7 @@ const artworks = [
         id: 7,
         title: "Madhubani Dreams",
         category: "traditional",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/madhubani_dreams.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-7.jpg",
         price: "₹20,000",
         dimensions: "22\" x 28\"",
         medium: "Natural Pigments on Handmade Paper",
@@ -81,7 +81,7 @@ const artworks = [
         id: 8,
         title: "Mumbai Monsoon",
         category: "contemporary",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/mumbai_monsoon.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-8.jpg",
         price: "₹28,000",
         dimensions: "36\" x 48\"",
         medium: "Oil on Canvas",
@@ -92,7 +92,7 @@ const artworks = [
         id: 9,
         title: "Himalayan Sunrise",
         category: "nature",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/himalayan_sunrise.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-9.jpg",
         price: "₹30,000",
         dimensions: "32\" x 48\"",
         medium: "Watercolor on Canvas",
@@ -103,7 +103,7 @@ const artworks = [
         id: 10,
         title: "Cosmic Dance",
         category: "spiritual",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/cosmic_dance.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-10.jpg",
         price: "₹35,000",
         dimensions: "36\" x 36\"",
         medium: "Acrylic on Canvas",
@@ -114,7 +114,7 @@ const artworks = [
         id: 11,
         title: "Village Life",
         category: "traditional",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/village_life.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-11.jpg",
         price: "₹19,000",
         dimensions: "24\" x 30\"",
         medium: "Oil on Canvas",
@@ -125,12 +125,320 @@ const artworks = [
         id: 12,
         title: "Peacock Garden",
         category: "nature",
-        image: "https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/peacock_garden.jpg",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-12.jpg",
         price: "₹24,000",
         dimensions: "28\" x 36\"",
         medium: "Acrylic on Canvas",
         year: "2024",
         description: "India's national bird depicted in its full glory among lush garden foliage. Vibrant blues and greens create a celebration of natural beauty and grace."
+    },
+    {
+        id: 13,
+        title: "Temple Bells",
+        category: "spiritual",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-13.jpg",
+        price: "₹21,000",
+        dimensions: "20\" x 30\"",
+        medium: "Oil on Canvas",
+        year: "2024",
+        description: "The melodious sound of temple bells captured in visual form. Golden hues and spiritual energy flow through this devotional composition."
+    },
+    {
+        id: 14,
+        title: "Kathak Dancer",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-14.jpg",
+        price: "₹26,000",
+        dimensions: "24\" x 36\"",
+        medium: "Acrylic on Canvas",
+        year: "2023",
+        description: "A graceful Kathak dancer frozen in motion, embodying centuries of classical Indian dance tradition with flowing costumes and expressive gestures."
+    },
+    {
+        id: 15,
+        title: "Urban Rhythms",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-15.jpg",
+        price: "₹32,000",
+        dimensions: "36\" x 48\"",
+        medium: "Mixed Media on Canvas",
+        year: "2024",
+        description: "The pulse of modern Indian cities captured through bold strokes and vibrant colors, representing the harmony between tradition and progress."
+    },
+    {
+        id: 16,
+        title: "Sacred Ganges",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-16.jpg",
+        price: "₹28,000",
+        dimensions: "30\" x 40\"",
+        medium: "Watercolor on Canvas",
+        year: "2023",
+        description: "The holy river Ganges at dawn, with pilgrims and boats creating a spiritual atmosphere along the sacred ghats of Varanasi."
+    },
+    {
+        id: 17,
+        title: "Color Explosion",
+        category: "abstract",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-17.jpg",
+        price: "₹18,000",
+        dimensions: "24\" x 32\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "An explosion of vibrant colors representing the joy and energy of Indian festivals, particularly the celebration of Holi."
+    },
+    {
+        id: 18,
+        title: "Warli Art Modern",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-18.jpg",
+        price: "₹16,000",
+        dimensions: "18\" x 24\"",
+        medium: "Natural Pigments on Canvas",
+        year: "2024",
+        description: "Contemporary interpretation of ancient Warli tribal art, featuring stick figures and geometric patterns that tell stories of daily life."
+    },
+    {
+        id: 19,
+        title: "Digital Dreams",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-19.jpg",
+        price: "₹25,000",
+        dimensions: "28\" x 36\"",
+        medium: "Digital Art Print on Canvas",
+        year: "2024",
+        description: "A fusion of digital technology and traditional Indian motifs, representing India's journey into the digital age while preserving cultural heritage."
+    },
+    {
+        id: 20,
+        title: "Desert Sunset",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-20.jpg",
+        price: "₹22,000",
+        dimensions: "26\" x 34\"",
+        medium: "Oil on Canvas",
+        year: "2023",
+        description: "The magnificent Rajasthani desert landscape at sunset, with golden dunes and camel silhouettes creating a timeless scene."
+    },
+    {
+        id: 21,
+        title: "Meditation Circle",
+        category: "spiritual",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-21.jpg",
+        price: "₹19,500",
+        dimensions: "20\" x 20\"",
+        medium: "Watercolor on Paper",
+        year: "2024",
+        description: "A circular composition representing the cyclical nature of existence and the path to inner peace through meditation."
+    },
+    {
+        id: 22,
+        title: "Puppet Show",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-22.jpg",
+        price: "₹17,500",
+        dimensions: "22\" x 28\"",
+        medium: "Acrylic on Canvas",
+        year: "2023",
+        description: "Colorful Rajasthani puppets in performance, capturing the whimsical and theatrical tradition of kathputli dance."
+    },
+    {
+        id: 23,
+        title: "Geometric Harmony",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-23.jpg",
+        price: "₹23,000",
+        dimensions: "24\" x 32\"",
+        medium: "Mixed Media on Canvas",
+        year: "2024",
+        description: "Modern geometric patterns inspired by Indian architectural motifs, creating harmony between mathematical precision and artistic expression."
+    },
+    {
+        id: 24,
+        title: "Monsoon Magic",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-24.jpg",
+        price: "₹27,000",
+        dimensions: "32\" x 40\"",
+        medium: "Watercolor on Canvas",
+        year: "2024",
+        description: "The beauty and power of monsoon rains bringing life to the Indian landscape, with dramatic clouds and rain-soaked earth."
+    },
+    {
+        id: 25,
+        title: "Energy Flow",
+        category: "abstract",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-25.jpg",
+        price: "₹20,500",
+        dimensions: "26\" x 32\"",
+        medium: "Acrylic on Canvas",
+        year: "2023",
+        description: "Abstract representation of chakras and energy flow, using warm colors and flowing forms to depict spiritual energy movement."
+    },
+    {
+        id: 26,
+        title: "Folk Musicians",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-26.jpg",
+        price: "₹24,500",
+        dimensions: "28\" x 36\"",
+        medium: "Oil on Canvas",
+        year: "2024",
+        description: "Traditional Indian folk musicians with tabla, sitar, and flute, capturing the soul of classical Indian music and cultural heritage."
+    },
+    {
+        id: 27,
+        title: "City Lights",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-27.jpg",
+        price: "₹29,000",
+        dimensions: "30\" x 42\"",
+        medium: "Mixed Media on Canvas",
+        year: "2024",
+        description: "The vibrant nightlife of modern Indian cities, with neon lights and bustling streets creating an energetic urban landscape."
+    },
+    {
+        id: 28,
+        title: "Banyan Wisdom",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-28.jpg",
+        price: "₹26,500",
+        dimensions: "32\" x 44\"",
+        medium: "Oil on Canvas",
+        year: "2023",
+        description: "An ancient banyan tree with its spreading branches and aerial roots, symbolizing wisdom, longevity, and the interconnectedness of life."
+    },
+    {
+        id: 29,
+        title: "Divine Light",
+        category: "spiritual",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-29.jpg",
+        price: "₹31,000",
+        dimensions: "30\" x 40\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "Rays of divine light breaking through clouds, representing spiritual awakening and the presence of the divine in everyday life."
+    },
+    {
+        id: 30,
+        title: "Textile Patterns",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-30.jpg",
+        price: "₹18,500",
+        dimensions: "24\" x 30\"",
+        medium: "Natural Dyes on Canvas",
+        year: "2024",
+        description: "Intricate patterns inspired by traditional Indian textiles, featuring paisley, floral motifs, and geometric designs in rich colors."
+    },
+    {
+        id: 31,
+        title: "Abstract Emotion",
+        category: "abstract",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-31.jpg",
+        price: "₹22,500",
+        dimensions: "28\" x 34\"",
+        medium: "Mixed Media on Canvas",
+        year: "2023",
+        description: "Raw emotions translated into abstract forms and colors, exploring the depths of human feelings through non-representational art."
+    },
+    {
+        id: 32,
+        title: "Modern Temple",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-32.jpg",
+        price: "₹33,000",
+        dimensions: "36\" x 48\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "A contemporary interpretation of temple architecture, blending traditional spiritual elements with modern artistic vision."
+    },
+    {
+        id: 33,
+        title: "Tiger's Grace",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-33.jpg",
+        price: "₹35,000",
+        dimensions: "32\" x 48\"",
+        medium: "Oil on Canvas",
+        year: "2024",
+        description: "The majestic Bengal tiger in its natural habitat, representing India's wildlife heritage and the power of nature conservation."
+    },
+    {
+        id: 34,
+        title: "Prayer Flags",
+        category: "spiritual",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-34.jpg",
+        price: "₹16,500",
+        dimensions: "20\" x 28\"",
+        medium: "Watercolor on Paper",
+        year: "2023",
+        description: "Colorful prayer flags fluttering in the Himalayan breeze, carrying hopes and prayers across the sacred mountain landscape."
+    },
+    {
+        id: 35,
+        title: "Wedding Celebration",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-35.jpg",
+        price: "₹28,500",
+        dimensions: "30\" x 40\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "A joyous Indian wedding scene with colorful decorations, traditional attire, and celebratory atmosphere capturing cultural festivities."
+    },
+    {
+        id: 36,
+        title: "Future Vision",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-36.jpg",
+        price: "₹30,000",
+        dimensions: "32\" x 42\"",
+        medium: "Digital Art on Canvas",
+        year: "2024",
+        description: "A futuristic vision of India blending technology with tradition, representing the country's journey toward innovation and progress."
+    },
+    {
+        id: 37,
+        title: "Ocean Waves",
+        category: "nature",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-37.jpg",
+        price: "₹25,500",
+        dimensions: "28\" x 38\"",
+        medium: "Watercolor on Canvas",
+        year: "2023",
+        description: "The rhythm and power of ocean waves along India's extensive coastline, capturing the eternal dance between land and sea."
+    },
+    {
+        id: 38,
+        title: "Cosmic Mandala",
+        category: "abstract",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-38.jpg",
+        price: "₹27,500",
+        dimensions: "30\" x 30\"",
+        medium: "Mixed Media on Canvas",
+        year: "2024",
+        description: "A complex mandala representing the cosmos and universal connection, with intricate patterns radiating from a central point."
+    },
+    {
+        id: 39,
+        title: "Heritage Street",
+        category: "traditional",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-39.jpg",
+        price: "₹21,500",
+        dimensions: "26\" x 34\"",
+        medium: "Oil on Canvas",
+        year: "2024",
+        description: "A bustling traditional street scene with vendors, colorful buildings, and the authentic atmosphere of old Indian marketplaces."
+    },
+    {
+        id: 40,
+        title: "New Horizons",
+        category: "contemporary",
+        image: "https://github.com/prativaoncanvas/en/blob/main/arts/art-40.jpg",
+        price: "₹34,000",
+        dimensions: "36\" x 50\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "A contemporary masterpiece representing hope and new beginnings, with dynamic forms and colors pointing toward a bright future."
     }
 ];
 
@@ -175,12 +483,12 @@ function createPlaceholderImages() {
     const artistImg = document.getElementById('artist-img');
     
     if (heroImg) {
-        heroImg.src = 'https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/featured_artwork.jpg';
+        heroImg.src = 'https://github.com/prativaoncanvas/en/blob/main/arts/featured-artwork.jpg';
         heroImg.alt = 'Featured Indian Contemporary Artwork';
     }
     
     if (artistImg) {
-        artistImg.src = 'https://raw.githubusercontent.com/prativaoncanvas/en/main/arts/artist_photo.jpg';
+        artistImg.src = 'https://github.com/prativaoncanvas/en/blob/main/arts/artist-photo.jpg';
         artistImg.alt = 'Prativa - Artist Portrait';
     }
 }
