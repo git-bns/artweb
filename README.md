@@ -1,14 +1,15 @@
-# Elena Rodriguez - Contemporary Artist Website
+# Prativa On Canvas - Contemporary Indian Artist Website
 
-A modern, responsive artist portfolio website showcasing contemporary artworks with category filtering and integrated ordering system.
+A modern, responsive artist portfolio website showcasing contemporary Indian artworks with category filtering and integrated Google Forms ordering system.
 
 ## Features
 
 ### 🎨 **Art Gallery**
-- Responsive grid layout displaying artworks
-- Category-based filtering (All, Paintings, Mixed Media, Abstract, Portraits)
+- Responsive grid layout displaying Indian artworks
+- Category-based filtering (All, Traditional, Contemporary, Spiritual, Nature, Abstract)
 - Smooth hover animations and visual effects
 - High-quality placeholder images from Unsplash
+- 12 sample artworks with Indian themes and pricing in INR
 
 ### 📱 **Responsive Design**
 - Mobile-first approach with breakpoints for tablets and desktop
@@ -26,9 +27,10 @@ A modern, responsive artist portfolio website showcasing contemporary artworks w
   - Artist description
   - Pricing information
 
-### 🛒 **Integrated Ordering System**
+### 🛒 **Integrated Google Forms Ordering System**
 - Seamless order flow from artwork viewing to purchase
 - Customer information form with validation
+- Direct submission to Google Forms for order management
 - Order summary and confirmation
 - Professional order confirmation messaging
 
@@ -73,6 +75,39 @@ A modern, responsive artist portfolio website showcasing contemporary artworks w
 2. **Open** `index.html` in a web browser
 3. **No build process required** - pure HTML/CSS/JavaScript
 
+## Google Forms Setup
+
+To enable order submissions, you need to set up a Google Form:
+
+1. **Create a Google Form** at [forms.google.com](https://forms.google.com)
+2. **Add the following fields:**
+   - Customer Name (Short answer)
+   - Email Address (Short answer)
+   - Phone Number (Short answer)
+   - Artwork Title (Short answer)
+   - Artwork Price (Short answer)
+   - Shipping Address (Paragraph)
+   - Special Requests (Paragraph)
+
+3. **Get the form URL:**
+   - Click "Send" → "Link" → Copy the link
+   - Replace `viewform` with `formResponse` in the URL
+
+4. **Get field IDs:**
+   - Right-click on each field and inspect element
+   - Find the `name` attribute (e.g., `entry.123456789`)
+
+5. **Update the JavaScript:**
+   - Open `script.js`
+   - Replace `GOOGLE_FORMS_URL` with your form URL
+   - Replace the field IDs in the `formFields` object
+
+Example field ID extraction:
+```html
+<input name="entry.123456789" ... >
+```
+Use `entry.123456789` as the field ID.
+
 ## Customization
 
 ### **Adding New Artworks**
@@ -81,11 +116,11 @@ Edit the `artworks` array in `script.js`:
 ```javascript
 const artworks = [
     {
-        id: 10,
+        id: 13,
         title: "Your Artwork Title",
-        category: "paintings", // or "abstract", "mixed-media", "portraits"
+        category: "traditional", // or "contemporary", "spiritual", "nature", "abstract"
         image: "path/to/image.jpg",
-        price: "$X,XXX",
+        price: "₹XX,XXX",
         dimensions: "XX\" x XX\"",
         medium: "Medium Description",
         year: "YYYY",
@@ -96,8 +131,9 @@ const artworks = [
 
 ### **Updating Artist Information**
 - Edit HTML content in the "About" section
-- Update contact information in the "Contact" section
+- Update contact information in the "Contact" section (currently set for Indian contact details)
 - Replace artist photo and hero image URLs
+- Update Google Forms integration with your own form
 
 ### **Styling Changes**
 Modify CSS custom properties in `styles.css`:
@@ -135,6 +171,32 @@ Potential additions for further development:
 - SEO optimization
 - Performance monitoring
 
+## Sample Artworks Included
+
+The website comes with 12 sample Indian artworks across different categories:
+
+### 🕉️ **Spiritual** (3 artworks)
+- Divine Ganesha - ₹15,000
+- Lotus Meditation - ₹18,500  
+- Cosmic Dance - ₹35,000
+
+### 🎨 **Traditional** (3 artworks)
+- Rajasthani Folk Dance - ₹22,000
+- Madhubani Dreams - ₹20,000
+- Village Life - ₹19,000
+
+### 🏙️ **Contemporary** (2 artworks)
+- Modern Mandala - ₹12,000
+- Mumbai Monsoon - ₹28,000
+
+### 🌿 **Nature** (3 artworks)
+- Kerala Backwaters - ₹25,000
+- Himalayan Sunrise - ₹30,000
+- Peacock Garden - ₹24,000
+
+### 🎭 **Abstract** (1 artwork)
+- Abstract Raga - ₹16,500
+
 ---
 
-**Created for artists who want a professional, modern web presence to showcase and sell their artwork online.**
+**Created for Indian artists who want a professional, modern web presence to showcase and sell their artwork online with integrated Google Forms order management.**
