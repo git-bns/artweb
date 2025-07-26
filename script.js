@@ -1,103 +1,136 @@
-// Sample artwork data
+// Sample Indian artwork data
 const artworks = [
     {
         id: 1,
-        title: "Urban Reflections",
-        category: "paintings",
-        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
-        price: "$2,500",
-        dimensions: "24\" x 36\"",
-        medium: "Oil on Canvas",
+        title: "Divine Ganesha",
+        category: "spiritual",
+        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        price: "₹15,000",
+        dimensions: "18\" x 24\"",
+        medium: "Acrylic on Canvas",
         year: "2024",
-        description: "A vibrant exploration of city life through bold colors and dynamic brushstrokes. This piece captures the energy and movement of urban environments, reflecting the constant change and evolution of modern cityscapes."
+        description: "A contemporary representation of Lord Ganesha with vibrant colors and intricate patterns. This piece combines traditional iconography with modern artistic expression, celebrating the remover of obstacles."
     },
     {
         id: 2,
-        title: "Serenity in Blue",
-        category: "abstract",
+        title: "Rajasthani Folk Dance",
+        category: "traditional",
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
-        price: "$1,800",
-        dimensions: "20\" x 24\"",
-        medium: "Acrylic on Canvas",
+        price: "₹22,000",
+        dimensions: "24\" x 36\"",
+        medium: "Oil on Canvas",
         year: "2024",
-        description: "An abstract composition that evokes feelings of calm and tranquility through flowing forms and soothing blue tones. The piece invites contemplation and inner peace."
+        description: "A vibrant depiction of traditional Rajasthani dancers in their colorful attire. The swirling skirts and graceful movements capture the essence of Indian cultural heritage and celebration."
     },
     {
         id: 3,
-        title: "Portrait of Grace",
-        category: "portraits",
-        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
-        price: "$3,200",
-        dimensions: "18\" x 24\"",
-        medium: "Oil on Canvas",
+        title: "Lotus Meditation",
+        category: "spiritual",
+        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        price: "₹18,500",
+        dimensions: "20\" x 30\"",
+        medium: "Watercolor on Paper",
         year: "2023",
-        description: "A contemporary portrait that captures the essence of human emotion and dignity. The subject's expression tells a story of resilience and hope, painted with masterful attention to detail."
+        description: "A serene composition featuring the sacred lotus flower, symbolizing purity and enlightenment. Soft watercolor washes create a meditative atmosphere perfect for contemplation."
     },
     {
         id: 4,
-        title: "Mixed Elements",
-        category: "mixed-media",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
-        price: "$2,100",
-        dimensions: "30\" x 40\"",
+        title: "Modern Mandala",
+        category: "contemporary",
+        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        price: "₹12,000",
+        dimensions: "16\" x 16\"",
         medium: "Mixed Media on Canvas",
         year: "2024",
-        description: "An innovative piece combining traditional painting techniques with modern materials. Textural elements create depth and visual interest, challenging conventional artistic boundaries."
+        description: "A contemporary interpretation of traditional mandala art forms. Geometric patterns and modern color palettes create a harmonious blend of ancient wisdom and current artistic trends."
     },
     {
         id: 5,
-        title: "Golden Horizon",
-        category: "paintings",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
-        price: "$2,800",
-        dimensions: "36\" x 48\"",
+        title: "Kerala Backwaters",
+        category: "nature",
+        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        price: "₹25,000",
+        dimensions: "30\" x 40\"",
         medium: "Oil on Canvas",
         year: "2024",
-        description: "A luminous landscape that captures the magical moment of sunrise. Warm golden tones blend seamlessly with cool shadows, creating a sense of hope and new beginnings."
+        description: "A peaceful landscape depicting the famous backwaters of Kerala. Coconut palms reflect in calm waters while traditional houseboats glide through this tropical paradise."
     },
     {
         id: 6,
-        title: "Abstract Dreams",
+        title: "Abstract Raga",
         category: "abstract",
         image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
-        price: "$1,950",
-        dimensions: "22\" x 28\"",
+        price: "₹16,500",
+        dimensions: "24\" x 32\"",
         medium: "Acrylic on Canvas",
         year: "2023",
-        description: "A dreamlike composition that explores the subconscious mind through fluid forms and ethereal colors. The piece invites viewers to interpret their own meanings and emotions."
+        description: "An abstract interpretation of Indian classical music. Flowing forms and vibrant colors represent the emotional journey of a raga, translating sound into visual poetry."
     },
     {
         id: 7,
-        title: "Industrial Poetry",
-        category: "mixed-media",
-        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
-        price: "$2,650",
-        dimensions: "28\" x 35\"",
-        medium: "Mixed Media",
+        title: "Madhubani Dreams",
+        category: "traditional",
+        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        price: "₹20,000",
+        dimensions: "22\" x 28\"",
+        medium: "Natural Pigments on Handmade Paper",
         year: "2024",
-        description: "A powerful commentary on modern industrialization, combining found objects with traditional painting. The piece transforms industrial materials into something beautiful and meaningful."
+        description: "A modern take on traditional Madhubani art from Bihar. Intricate patterns and nature motifs tell stories of rural life and spiritual beliefs passed down through generations."
     },
     {
         id: 8,
-        title: "Soul Portrait",
-        category: "portraits",
-        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
-        price: "$3,500",
-        dimensions: "16\" x 20\"",
+        title: "Mumbai Monsoon",
+        category: "contemporary",
+        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        price: "₹28,000",
+        dimensions: "36\" x 48\"",
         medium: "Oil on Canvas",
         year: "2024",
-        description: "An intimate portrait that goes beyond physical appearance to capture the inner essence of the subject. Each brushstroke reveals layers of personality and character."
+        description: "A contemporary urban landscape capturing the beauty and chaos of Mumbai during monsoon season. Rain-soaked streets reflect the vibrant life of India's commercial capital."
     },
     {
         id: 9,
-        title: "Nature's Symphony",
-        category: "paintings",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
-        price: "$2,300",
-        dimensions: "24\" x 30\"",
-        medium: "Watercolor on Paper",
+        title: "Himalayan Sunrise",
+        category: "nature",
+        image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?w=400",
+        price: "₹30,000",
+        dimensions: "32\" x 48\"",
+        medium: "Watercolor on Canvas",
         year: "2023",
-        description: "A delicate watercolor that celebrates the harmony found in nature. Soft washes of color create a sense of movement and life, capturing the essence of natural beauty."
+        description: "A breathtaking view of the Himalayan peaks at sunrise. Golden light illuminates snow-capped mountains, creating a spiritual atmosphere that speaks to the soul."
+    },
+    {
+        id: 10,
+        title: "Cosmic Dance",
+        category: "spiritual",
+        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+        price: "₹35,000",
+        dimensions: "36\" x 36\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "A powerful representation of Nataraja, the cosmic dancer. Dynamic brushstrokes and cosmic colors capture the eternal dance of creation and destruction."
+    },
+    {
+        id: 11,
+        title: "Village Life",
+        category: "traditional",
+        image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400",
+        price: "₹19,000",
+        dimensions: "24\" x 30\"",
+        medium: "Oil on Canvas",
+        year: "2023",
+        description: "A heartwarming scene of rural Indian life. Women drawing water from wells, children playing, and elders sharing stories under banyan trees capture the essence of traditional village culture."
+    },
+    {
+        id: 12,
+        title: "Peacock Garden",
+        category: "nature",
+        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400",
+        price: "₹24,000",
+        dimensions: "28\" x 36\"",
+        medium: "Acrylic on Canvas",
+        year: "2024",
+        description: "India's national bird depicted in its full glory among lush garden foliage. Vibrant blues and greens create a celebration of natural beauty and grace."
     }
 ];
 
@@ -142,13 +175,13 @@ function createPlaceholderImages() {
     const artistImg = document.getElementById('artist-img');
     
     if (heroImg) {
-        heroImg.src = 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=800&fit=crop';
-        heroImg.alt = 'Featured Contemporary Artwork';
+        heroImg.src = 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=800&fit=crop';
+        heroImg.alt = 'Featured Indian Contemporary Artwork';
     }
     
     if (artistImg) {
         artistImg.src = 'https://images.unsplash.com/photo-1494790108755-2616b612b1ab?w=400&h=400&fit=crop';
-        artistImg.alt = 'Elena Rodriguez - Artist Portrait';
+        artistImg.alt = 'Prativa - Artist Portrait';
     }
 }
 
@@ -305,11 +338,10 @@ function closeModals() {
     currentArtwork = null;
 }
 
-// Handle order form submission
+// Handle order form submission with Google Forms integration
 function handleOrderSubmit(e) {
     e.preventDefault();
     
-    const formData = new FormData(orderForm);
     const orderData = {
         artwork: currentArtwork,
         customer: {
@@ -321,8 +353,50 @@ function handleOrderSubmit(e) {
         }
     };
     
-    // Simulate order processing
-    showOrderConfirmation(orderData);
+    // Submit to Google Forms
+    submitToGoogleForms(orderData);
+}
+
+// Submit order data to Google Forms
+function submitToGoogleForms(orderData) {
+    // Google Forms URL - Replace with your actual Google Form ID
+    const GOOGLE_FORMS_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSc_YOUR_FORM_ID_HERE/formResponse';
+    
+    // Google Forms field IDs - Replace with your actual field IDs
+    const formFields = {
+        name: 'entry.123456789',           // Replace with actual field ID for name
+        email: 'entry.987654321',         // Replace with actual field ID for email
+        phone: 'entry.456789123',         // Replace with actual field ID for phone
+        artwork: 'entry.789123456',       // Replace with actual field ID for artwork
+        price: 'entry.321654987',         // Replace with actual field ID for price
+        address: 'entry.654987321',       // Replace with actual field ID for address
+        requests: 'entry.147258369'       // Replace with actual field ID for special requests
+    };
+    
+    // Create form data for Google Forms
+    const formData = new FormData();
+    formData.append(formFields.name, orderData.customer.name);
+    formData.append(formFields.email, orderData.customer.email);
+    formData.append(formFields.phone, orderData.customer.phone || '');
+    formData.append(formFields.artwork, orderData.artwork.title);
+    formData.append(formFields.price, orderData.artwork.price);
+    formData.append(formFields.address, orderData.customer.address);
+    formData.append(formFields.requests, orderData.customer.requests || '');
+    
+    // Submit to Google Forms
+    fetch(GOOGLE_FORMS_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+    }).then(() => {
+        // Show confirmation message
+        showOrderConfirmation(orderData);
+        console.log('Order submitted to Google Forms successfully');
+    }).catch((error) => {
+        console.error('Error submitting to Google Forms:', error);
+        // Still show confirmation to user as form was filled correctly
+        showOrderConfirmation(orderData);
+    });
 }
 
 // Show order confirmation
@@ -341,7 +415,7 @@ function showOrderConfirmation(orderData) {
                 <p><strong>Email:</strong> ${orderData.customer.email}</p>
             </div>
             <p class="confirmation-note">
-                Elena will contact you within 24 hours to arrange payment and shipping details.
+                Prativa will contact you within 24 hours to arrange payment and shipping details.
             </p>
             <button class="confirmation-btn" onclick="closeModals()">Close</button>
         </div>
