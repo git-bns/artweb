@@ -548,6 +548,14 @@ function setupEventListeners() {
             closeModals();
         }
     });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
     
     // Hamburger menu
     hamburger.addEventListener('click', toggleMobileMenu);
@@ -562,6 +570,7 @@ function setupEventListeners() {
                 targetSection.scrollIntoView({ behavior: 'smooth' });
                 // Close mobile menu if open
                 navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
             }
         });
     });
@@ -599,14 +608,7 @@ function handleFilterClick(e) {
 // Toggle mobile menu
 function toggleMobileMenu() {
     navMenu.classList.toggle('active');
-    
-    // Animate hamburger
-    const bars = hamburger.querySelectorAll('.bar');
-    bars.forEach((bar, index) => {
-        bar.style.transform = navMenu.classList.contains('active') 
-            ? `rotate(${index === 1 ? '0' : index === 0 ? '45' : '-45'}deg) translate(${index === 1 ? '0' : index === 0 ? '8px, 8px' : '-8px, 8px'})`
-            : 'none';
-    });
+    hamburger.classList.toggle('active');
 }
 
 // Open artwork modal
